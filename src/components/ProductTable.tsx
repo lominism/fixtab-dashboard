@@ -72,7 +72,7 @@ export default function ProductTable({ products }: { products: Product[] }) {
         />
       </div>
       <Table>
-        <TableCaption>Product List</TableCaption>
+        <TableCaption>Product List limited to 30 items</TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead>Image</TableHead>
