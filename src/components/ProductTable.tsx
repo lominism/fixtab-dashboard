@@ -27,7 +27,7 @@ type ProductTableProps = {
 export default function ProductTable({ products }: ProductTableProps) {
   return (
     <Table>
-      <TableCaption>A list of your products.</TableCaption>
+      <TableCaption>Product List limited to 30.</TableCaption>
       <TableHeader>
         <TableRow>
           <TableHead className="w-[100px]">Image</TableHead>

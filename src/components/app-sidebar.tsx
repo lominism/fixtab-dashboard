@@ -54,10 +54,6 @@ const data = {
           title: "Change Serial Number",
           url: "/change-serial-number",
         },
-        {
-          title: "Products",
-          url: "/products",
-        },
       ],
     },
   ],

@@ -1,7 +1,5 @@
 {
   "/change-serial-number/page": "app/change-serial-number/page.js",
-  "/create-new-company/page": "app/create-new-company/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js",
-  "/products/page": "app/products/page.js"
+  "/page": "app/page.js"
 }

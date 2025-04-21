@@ -1,26 +1,322 @@
 [
-    {
-      "id": "PROD-001-AZ",
-      "name": "Macbook Pro 2024",
-      "serial": "SMPH00123",
-      "inventory": 4,
-      "branch": "Orbital Labs",
-      "image": "/images/macbook.webp"
-    },
-    {
-      "id": "PROD-002-AZ",
-      "name": "iPad 11",
-      "serial": "SMPH00124",
-      "inventory": 6,
-      "branch": "Orbital Labs",
-      "image": "/images/ipad11.jpg"
-    },
-    {
-      "id": "PROD-003-AZ",
-      "name": "Dell XPS 13",
-      "serial": "SMPH00125",
-      "inventory": 3,
-      "branch": "Orbital Labs",
-      "image": "/images/xps13.webp"
-    }
+  {
+    "id": "PROD-001-AZ",
+    "name": "Macbook Pro 2024",
+    "serial": "SMPH00123",
+    "inventory": 4,
+    "branch": "Azure Cloud Center",
+    "image": "/images/macbook.webp"
+  },
+  {
+    "id": "PROD-002-AZ",
+    "name": "iPad 11",
+    "serial": "SMPH00124",
+    "inventory": 6,
+    "branch": "Azure Cloud Center",
+    "image": "/images/ipad11.jpg"
+  },
+  {
+    "id": "PROD-003-AZ",
+    "name": "Dell XPS 13",
+    "serial": "SMPH00125",
+    "inventory": 3,
+    "branch": "Azure Cloud Center",
+    "image": "/images/xps13.webp"
+  },
+  {
+    "id": "PROD-004-AZ",
+    "name": "ROG Ally",
+    "serial": "SMPH100127",
+    "inventory": 9,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-005-AZ",
+    "name": "Motorola Razr+",
+    "serial": "SMPH100128",
+    "inventory": 3,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-006-AZ",
+    "name": "Alienware m18",
+    "serial": "SMPH100129",
+    "inventory": 1,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-007-AZ",
+    "name": "Huawei MateBook X",
+    "serial": "SMPH100130",
+    "inventory": 3,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-008-AZ",
+    "name": "Pixel 8 Pro",
+    "serial": "SMPH100131",
+    "inventory": 6,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-009-AZ",
+    "name": "Lenovo ThinkPad X1",
+    "serial": "SMPH100132",
+    "inventory": 2,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-010-AZ",
+    "name": "Lenovo ThinkPad X1",
+    "serial": "SMPH100133",
+    "inventory": 8,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-011-AZ",
+    "name": "Lenovo ThinkPad X1",
+    "serial": "SMPH100134",
+    "inventory": 2,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-012-AZ",
+    "name": "Mac Mini M2",
+    "serial": "SMPH100135",
+    "inventory": 7,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-013-AZ",
+    "name": "iPad Mini 6",
+    "serial": "SMPH100136",
+    "inventory": 10,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-014-AZ",
+    "name": "PinePhone Pro",
+    "serial": "SMPH100137",
+    "inventory": 6,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-015-AZ",
+    "name": "BOOX Note Air3",
+    "serial": "SMPH100138",
+    "inventory": 6,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-016-AZ",
+    "name": "Beats Studio Buds",
+    "serial": "SMPH100139",
+    "inventory": 6,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-017-AZ",
+    "name": "Mac Mini M2",
+    "serial": "SMPH100140",
+    "inventory": 3,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-018-AZ",
+    "name": "Nothing Phone 2",
+    "serial": "SMPH100141",
+    "inventory": 2,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-019-AZ",
+    "name": "MSI Creator Z17",
+    "serial": "SMPH100142",
+    "inventory": 1,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-020-AZ",
+    "name": "Logitech MX Master 3",
+    "serial": "SMPH100143",
+    "inventory": 10,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-021-AZ",
+    "name": "Asus ROG Zephyrus",
+    "serial": "SMPH100144",
+    "inventory": 5,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-022-AZ",
+    "name": "MSI Creator Z17",
+    "serial": "SMPH100145",
+    "inventory": 7,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-023-AZ",
+    "name": "Framework Laptop",
+    "serial": "SMPH100146",
+    "inventory": 1,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-024-AZ",
+    "name": "BOOX Note Air3",
+    "serial": "SMPH100147",
+    "inventory": 10,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-025-AZ",
+    "name": "Mac Mini M2",
+    "serial": "SMPH100148",
+    "inventory": 6,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-026-AZ",
+    "name": "Apple TV 4K",
+    "serial": "SMPH100149",
+    "inventory": 3,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-027-AZ",
+    "name": "BOOX Note Air3",
+    "serial": "SMPH100150",
+    "inventory": 10,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-028-AZ",
+    "name": "PinePhone Pro",
+    "serial": "SMPH100151",
+    "inventory": 4,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-029-AZ",
+    "name": "TCL NXTPAPER 12 Pro",
+    "serial": "SMPH100152",
+    "inventory": 4,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-030-AZ",
+    "name": "MSI Creator Z17",
+    "serial": "SMPH100153",
+    "inventory": 7,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-031-AZ",
+    "name": "ZTE Axon 40",
+    "serial": "SMPH100154",
+    "inventory": 1,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-032-AZ",
+    "name": "BOOX Note Air3",
+    "serial": "SMPH100155",
+    "inventory": 6,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-033-AZ",
+    "name": "ZTE Axon 40",
+    "serial": "SMPH100156",
+    "inventory": 2,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-034-AZ",
+    "name": "Google Pixel Tablet",
+    "serial": "SMPH100157",
+    "inventory": 2,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-035-AZ",
+    "name": "HP Spectre x360",
+    "serial": "SMPH100158",
+    "inventory": 3,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-036-AZ",
+    "name": "iPhone 15 Pro",
+    "serial": "SMPH100159",
+    "inventory": 6,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-037-AZ",
+    "name": "Galaxy Tab S9",
+    "serial": "SMPH100160",
+    "inventory": 1,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-038-AZ",
+    "name": "ZTE Axon 40",
+    "serial": "SMPH100161",
+    "inventory": 6,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-039-AZ",
+    "name": "Alienware m18",
+    "serial": "SMPH100162",
+    "inventory": 1,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  },
+  {
+    "id": "PROD-040-AZ",
+    "name": "Apple Watch Series 9",
+    "serial": "SMPH100163",
+    "inventory": 6,
+    "branch": "Azure Cloud Center",
+    "image": "/images/nopic.webp"
+  }
 ]

@@ -139,7 +139,7 @@ export default function ChangeSerialNumber() {
           >
             Back
           </button>
-          <ProductTable products={products} />
+          <ProductTable products={products.slice(0, 30)} /> {/* Limit to 30 items */}
         </>
       ) : branches ? (
         <>
@@ -182,4 +182,3 @@ export default function ChangeSerialNumber() {
       )}
     </main>
   );
-}

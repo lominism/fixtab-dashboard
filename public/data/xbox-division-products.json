@@ -4,7 +4,7 @@
       "name": "Macbook Pro 2024",
       "serial": "SMPH00123",
       "inventory": 4,
-      "branch": "Orbital Labs",
+      "branch": "Xbox Division",
       "image": "/images/macbook.webp"
     },
     {
@@ -12,7 +12,7 @@
       "name": "iPad 11",
       "serial": "SMPH00124",
       "inventory": 6,
-      "branch": "Orbital Labs",
+      "branch": "Xbox Division",
       "image": "/images/ipad11.jpg"
     },
     {
@@ -20,7 +20,167 @@
       "name": "Dell XPS 13",
       "serial": "SMPH00125",
       "inventory": 3,
-      "branch": "Orbital Labs",
+      "branch": "Xbox Division",
       "image": "/images/xps13.webp"
+    },
+    {
+      "id": "NKBSMUS0CACV",
+      "name": "Macbook Pro 2021",
+      "serial": "SMPH100126",
+      "inventory": 3,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS15KGU",
+      "name": "iPad Air 10",
+      "serial": "SMPH100127",
+      "inventory": 1,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS2WKHE",
+      "name": "Dell XPS 13",
+      "serial": "SMPH100128",
+      "inventory": 6,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS3YWR3",
+      "name": "iPhone 15 Pro",
+      "serial": "SMPH100129",
+      "inventory": 4,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS445FG",
+      "name": "Surface Pro 9",
+      "serial": "SMPH100130",
+      "inventory": 7,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS5B8NL",
+      "name": "Apple Watch Series 9",
+      "serial": "SMPH100131",
+      "inventory": 2,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS6R2OT",
+      "name": "AirPods Pro 2",
+      "serial": "SMPH100132",
+      "inventory": 5,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS7U0YP",
+      "name": "Mac Mini M2",
+      "serial": "SMPH100133",
+      "inventory": 8,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS8LQZ4",
+      "name": "iMac 24-inch",
+      "serial": "SMPH100134",
+      "inventory": 9,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS9QW6A",
+      "name": "Lenovo ThinkPad X1",
+      "serial": "SMPH100135",
+      "inventory": 1,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS10V7R",
+      "name": "HP Spectre x360",
+      "serial": "SMPH100136",
+      "inventory": 6,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS11YKL",
+      "name": "Galaxy Tab S9",
+      "serial": "SMPH100137",
+      "inventory": 3,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS12BEX",
+      "name": "Asus ROG Zephyrus",
+      "serial": "SMPH100138",
+      "inventory": 2,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS13JDC",
+      "name": "Pixel 8 Pro",
+      "serial": "SMPH100139",
+      "inventory": 4,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS14MTF",
+      "name": "iPad Mini 6",
+      "serial": "SMPH100140",
+      "inventory": 3,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS15VCX",
+      "name": "Mac Studio M2 Ultra",
+      "serial": "SMPH100141",
+      "inventory": 6,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS16ZBN",
+      "name": "Alienware m18",
+      "serial": "SMPH100142",
+      "inventory": 2,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS17PKQ",
+      "name": "Apple TV 4K",
+      "serial": "SMPH100143",
+      "inventory": 7,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS18UHL",
+      "name": "Logitech MX Master 3",
+      "serial": "SMPH100144",
+      "inventory": 1,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
+    },
+    {
+      "id": "NKBSMUS19EGR",
+      "name": "Sony WH-1000XM5",
+      "serial": "SMPH100145",
+      "inventory": 5,
+      "branch": "Xbox Division",
+      "image": "/images/nopic.webp"
     }
 ]
