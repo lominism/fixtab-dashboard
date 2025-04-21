@@ -12,7 +12,6 @@ import {
 } from "@/components/ui/table";
 import BranchTable from "@/components/BranchTable";
 import ProductTable from "@/components/ProductTable";
-import { useBreadcrumb } from "@/context/BreadcrumbContext";
 
 type Branch = {
   id: number;
@@ -20,6 +19,7 @@ type Branch = {
   address: string;
   city: string;
   items: number;
+  productFile: string | null; // Added productFile property
 };
 
 type Company = {
@@ -31,16 +31,16 @@ type Company = {
 };
 
 type Product = {
-  id: number;
+  id: string; // Changed to match ProductTable's definition
   name: string;
   description: string;
+  serial: string; // Added serial property
   inventory: number;
   branch: string;
   image: string;
 };
 
 export default function ChangeSerialNumber() {
-  const { setBreadcrumb } = useBreadcrumb();
   const [companies, setCompanies] = useState<Company[]>([]);
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [branches, setBranches] = useState<Branch[] | null>(null);
@@ -63,13 +63,6 @@ export default function ChangeSerialNumber() {
 
     fetchCompanies();
   }, []);
-
-  // Update breadcrumb when selectedCompany changes
-  useEffect(() => {
-    setBreadcrumb(
-      selectedCompany ? `Companies -> ${selectedCompany.name}` : "Companies"
-    );
-  }, [selectedCompany, setBreadcrumb]);
 
   // Function to handle company click and dynamically load branches
   const handleCompanyClick = async (
@@ -139,7 +132,8 @@ export default function ChangeSerialNumber() {
           >
             Back
           </button>
-          <ProductTable products={products.slice(0, 30)} /> {/* Limit to 30 items */}
+          <ProductTable products={products.slice(0, 30)} />{" "}
+          {/* Limit to 30 items */}
         </>
       ) : branches ? (
         <>
@@ -182,3 +176,4 @@ export default function ChangeSerialNumber() {
       )}
     </main>
   );
+}
