@@ -1,0 +1,99 @@
+[
+    {
+      "id": 200001,
+      "name": "Xbox Division",
+      "address": "88 Wireless Road",
+      "city": "Bangkok",
+      "items": 12,
+      "productFile": "xbox-division-products.json"
+    },
+    {
+      "id": 200002,
+      "name": "Azure Cloud Center",
+      "address": "55 Ratchadaphisek Road",
+      "city": "Chiang Mai",
+      "items": 8,
+      "productFile": "azure-cloud-center-products.json"
+    },
+    {
+      "id": 200003,
+      "name": "Windows Support Hub",
+      "address": "101 Sukhumvit 21",
+      "city": "Phuket",
+      "items": 5,
+      "productFile": null
+    },
+    {
+      "id": 200004,
+      "name": "Microsoft 365 Solutions",
+      "address": "47 Ladprao Road",
+      "city": "Udon Thani",
+      "items": 6,
+      "productFile": null
+    },
+    {
+      "id": 200005,
+      "name": "Surface Experience Store",
+      "address": "199 Sathorn Road",
+      "city": "Pattaya",
+      "items": 10,
+      "productFile": null
+    },
+    {
+      "id": 200006,
+      "name": "LinkedIn Office",
+      "address": "72 Petchaburi Road",
+      "city": "Nakhon Ratchasima",
+      "items": 4,
+      "productFile": null
+    },
+    {
+      "id": 200007,
+      "name": "GitHub Dev Center",
+      "address": "17 Rangsit-Nakhon Nayok",
+      "city": "Ayutthaya",
+      "items": 9,
+      "productFile": null
+    },
+    {
+      "id": 200008,
+      "name": "OneDrive Operations",
+      "address": "120 Bangna-Trad Road",
+      "city": "Hat Yai",
+      "items": 3,
+      "productFile": null
+    },
+    {
+      "id": 200009,
+      "name": "Teams Collaboration Hub",
+      "address": "63 Rama IV Road",
+      "city": "Chiang Rai",
+      "items": 6,
+      "productFile": null
+    },
+    {
+      "id": 200010,
+      "name": "Visual Studio Labs",
+      "address": "25 Ramkhamhaeng Road",
+      "city": "Surat Thani",
+      "items": 7,
+      "productFile": null
+    },
+    {
+      "id": 200011,
+      "name": "Bing Data Center",
+      "address": "39 Chaengwattana Road",
+      "city": "Nakhon Pathom",
+      "items": 5,
+      "productFile": null
+    },
+    {
+      "id": 200012,
+      "name": "Power BI Solutions",
+      "address": "59 Phahonyothin Road",
+      "city": "Trang",
+      "items": 4,
+      "productFile": null
+    }
+  ]
+  

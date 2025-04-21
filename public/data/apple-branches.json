@@ -1,0 +1,74 @@
+[
+  {
+    "id": 300001,
+    "name": "iPhone Experience Center",
+    "address": "1 Apple Avenue",
+    "city": "Bangkok",
+    "items": 11,
+    "productFile": null
+  },
+  {
+    "id": 300002,
+    "name": "Mac Studio",
+    "address": "77 Ratchadamri Road",
+    "city": "Chiang Mai",
+    "items": 6,
+    "productFile": null
+  },
+  {
+    "id": 300003,
+    "name": "iCloud Data Hub",
+    "address": "33 Charoenkrung Road",
+    "city": "Phuket",
+    "items": 4,
+    "productFile": null
+  },
+  {
+    "id": 300004,
+    "name": "Apple Watch Boutique",
+    "address": "128 Sukhumvit Road",
+    "city": "Hat Yai",
+    "items": 3,
+    "productFile": null
+  },
+  {
+    "id": 300005,
+    "name": "Apple Music Lounge",
+    "address": "214 Nimmanhaemin Road",
+    "city": "Khon Kaen",
+    "items": 5,
+    "productFile": null
+  },
+  {
+    "id": 300006,
+    "name": "App Store Support Center",
+    "address": "40 Rama IX Road",
+    "city": "Nakhon Ratchasima",
+    "items": 7,
+    "productFile": null
+  },
+  {
+    "id": 300007,
+    "name": "AirPods Experience Bar",
+    "address": "62 Ladprao Road",
+    "city": "Pattaya",
+    "items": 2,
+    "productFile": null
+  },
+  {
+    "id": 300008,
+    "name": "AppleCare Service Hub",
+    "address": "19 Ratchaphruek Road",
+    "city": "Udon Thani",
+    "items": 8,
+    "productFile": null
+  },
+  {
+    "id": 300009,
+    "name": "Apple TV+ Studio",
+    "address": "91 Phaholyothin Road",
+    "city": "Surat Thani",
+    "items": 6,
+    "productFile": null
+  }
+]

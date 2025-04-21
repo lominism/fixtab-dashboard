@@ -1,0 +1,26 @@
+[
+    {
+      "id": "PROD-001-AZ",
+      "name": "Macbook Pro 2024",
+      "serial": "SMPH00123",
+      "inventory": 4,
+      "branch": "Orbital Labs",
+      "image": "/images/macbook.webp"
+    },
+    {
+      "id": "PROD-002-AZ",
+      "name": "iPad 11",
+      "serial": "SMPH00124",
+      "inventory": 6,
+      "branch": "Orbital Labs",
+      "image": "/images/ipad11.jpg"
+    },
+    {
+      "id": "PROD-003-AZ",
+      "name": "Dell XPS 13",
+      "serial": "SMPH00125",
+      "inventory": 3,
+      "branch": "Orbital Labs",
+      "image": "/images/xps13.webp"
+    }
+]

@@ -34,7 +34,9 @@ export function NavMain({
 }) {
   return (
     <SidebarGroup>
-      <SidebarGroupLabel>Platform</SidebarGroupLabel>
+      {/* <SidebarGroupLabel>Platform</SidebarGroupLabel> */}
+      {/* This dashboard doesn't need a group label. However, since it's part of the UI component,
+      I don't want to delete it in case I ever need it again. */}
       <SidebarMenu>
         {items.map((item) =>
           item.items && item.items.length > 0 ? ( // Check if sub-items exist
