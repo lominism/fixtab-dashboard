@@ -19,7 +19,7 @@ type Branch = {
   address: string;
   city: string;
   items: number;
-  productFile: string | null; // Added productFile property
+  productFile: string | null;
 };
 
 type Company = {
@@ -31,10 +31,10 @@ type Company = {
 };
 
 type Product = {
-  id: string; // Changed to match ProductTable's definition
+  id: string;
   name: string;
   description: string;
-  serial: string; // Added serial property
+  serial: string;
   inventory: number;
   branch: string;
   image: string;
@@ -45,6 +45,7 @@ export default function ChangeSerialNumber() {
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [branches, setBranches] = useState<Branch[] | null>(null);
   const [products, setProducts] = useState<Product[] | null>(null);
+  const [searchQuery, setSearchQuery] = useState(""); // New state for search query
 
   // Fetch companies data on mount
   useEffect(() => {
@@ -70,7 +71,6 @@ export default function ChangeSerialNumber() {
     company: Company
   ) => {
     if (!branchFile) {
-      // Stay on company page if no branchFile is provided
       window.location.href = "/change-serial-number";
       return;
     }
@@ -82,10 +82,9 @@ export default function ChangeSerialNumber() {
       }
       const branchData = await response.json();
       setBranches(branchData);
-      setSelectedCompany(company); // Set the selected company
+      setSelectedCompany(company);
     } catch (error) {
       console.error("Failed to load branch data:", error);
-      // Redirect to the homepage if fetching fails
       window.location.href = "/";
     }
   };
@@ -97,15 +96,12 @@ export default function ChangeSerialNumber() {
       return;
     }
 
-    console.log(`Fetching products from: /data/${productFile}`);
-
     try {
       const response = await fetch(`/data/${productFile}`);
       if (!response.ok) {
         throw new Error("Failed to fetch products data");
       }
       const productData = await response.json();
-      console.log("Fetched products:", productData);
       setProducts(productData);
     } catch (error) {
       console.error("Failed to load products data:", error);
@@ -115,15 +111,39 @@ export default function ChangeSerialNumber() {
   // Function to go back up the tree
   const handleBack = () => {
     if (products) {
-      setProducts(null); // Go back to branches
+      setProducts(null);
     } else if (branches) {
-      setBranches(null); // Go back to companies
+      setBranches(null);
       setSelectedCompany(null);
     }
   };
 
+  // Filter data based on the search query
+  const filteredCompanies = companies.filter((company) =>
+    company.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const filteredBranches = branches?.filter((branch) =>
+    branch.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const filteredProducts = products?.filter((product) =>
+    product.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <main className="m-4">
+      {/* Search Bar */}
+      <div className="mb-4">
+        <input
+          type="text"
+          placeholder="Search..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="px-2 py-1 text-sm border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-300"
+        />
+      </div>
+
       {products ? (
         <>
           <button
@@ -132,8 +152,7 @@ export default function ChangeSerialNumber() {
           >
             Back
           </button>
-          <ProductTable products={products.slice(0, 30)} />{" "}
-          {/* Limit to 30 items */}
+          <ProductTable products={filteredProducts?.slice(0, 30) || []} />
         </>
       ) : branches ? (
         <>
@@ -143,9 +162,12 @@ export default function ChangeSerialNumber() {
           >
             Back
           </button>
-          <BranchTable branches={branches} onBranchClick={handleBranchClick} />
+          <BranchTable
+            branches={filteredBranches || []}
+            onBranchClick={handleBranchClick}
+          />
         </>
-      ) : companies.length > 0 ? (
+      ) : filteredCompanies.length > 0 ? (
         <Table>
           <TableCaption>A list of your companies.</TableCaption>
           <TableHeader>
@@ -157,7 +179,7 @@ export default function ChangeSerialNumber() {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {companies.map((company) => (
+            {filteredCompanies.map((company) => (
               <TableRow
                 key={company.id}
                 onClick={() => handleCompanyClick(company.branchFile, company)}
